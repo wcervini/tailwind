@@ -1,0 +1,26 @@
+{
+  "name": "Tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind-default.config.js",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/styles.css -o ./public/css/styles.css -w",
+    "server": "live-server public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wcervini/tailwind.git"
+  },
+  "keywords": [],
+  "author": "Walter Cervini <linspec@yahoo.com> (https://github.com/wcervini)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wcervini/tailwind/issues"
+  },
+  "homepage": "https://github.com/wcervini/tailwind#readme",
+  "dependencies": {
+    "D": "^1.0.0",
+    "live-server": "^1.2.1",
+    "tailwindcss": "^2.2.19"
+  }
+}

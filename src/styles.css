@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply sm:bg-primary-500 tracking-wider bg-primary-100 text-white py-2 px-4 rounded cursor-pointer uppercase mt-2 mb-2;
+}
+
+.card {
+  @apply rounded-lg overflow-hidden shadow-md p-4 relative;
+}
+
+.card > .badge {
+  @apply bg-primary-300 text-white absolute top-0 rounded-full p-1 mt-4 w-12;
+}
+
+.card > image {
+  @apply w-full h-32 object-cover;
+}
